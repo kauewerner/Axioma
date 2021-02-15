@@ -10,7 +10,7 @@ A few patch examples (with VCV fundamental modules) can be found in the [example
 
 ## <a name="thebifurcator"></a> The Bifurcator
 
-![module screenshot](./doc/TheBifurcator.JPG)
+<img src="https://github.com/kauewerner/Axioma/doc/TheBifurcator.JPG" width="50%" height="50%">
 
 This module can be used as a sequencer to generate `CV`, `GATE` and `TRIGGER` outputs according to the mapped positions on the bifurcation map. The positions are obtained based on iterations of a selected function type `f(n)`. The available function options are: 
 
@@ -22,17 +22,17 @@ Each function can also iterate itself a number of times `f(f(...))`. The module 
 
 ## <a name="tesseract"></a> Tesseract
 
-![module screenshot](./doc/Tesseract.JPG)
+<img src="https://github.com/kauewerner/Axioma/doc/Tesseract.JPG" width="50%" height="50%">
 
 The Tesseract module provides output CV control (0 - 10V) based on the position of each vertex of a rotating Tesseract projected on a 2D space (X,Y). The rotation speed of each plane in the 4D space (`XY`,`YZ`,`XZ`,`XW`,`YW` and `ZW`) can be controlled by input CV and/or the available Knobs. The perspective `DISTANCE` can also be set (CV and Knob) and provides a change in the voltage dynamic range of the output CVs
 
 ## <a name="ikeda"></a> Ikeda
 
-![module screenshot](./doc/Ikeda.JPG)
+<img src="https://github.com/kauewerner/Axioma/doc/Ikeda.JPG" width="50%" height="50%">
 
 The Ikeda module is based on the dynamic system map proposed by [Kensuke Ikeda](https://en.wikipedia.org/wiki/Ikeda_map) which describes a chaotic behavior within a specific parameter range. The 2D example of the model used in this module can be described by the following equations:
 
-![module screenshot](./doc/equationIkeda.JPG)
+<img src="https://github.com/kauewerner/Axioma/doc/equationIkeda.JPG" width="50%" height="50%">
 
 The main parameter is the `u` value, which can be altered in the module and it is restricted to the 0.6 - 0.9 range (clamped). An additional parameter `t` was added to set a different weight ( 0.25 - 3.5 ) in the tn computation, which leads to a reshape of the chaotic maps. Output CVs are generated based on the (X,Y) positions obtained with this model. Each output CV level can be weighted by the available `LEVEL` knobs.
 

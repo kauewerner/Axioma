@@ -1,0 +1,9 @@
+/dep
+/res/AxiomaLogo.svg
+/build
+/dist
+/plugin.so
+/plugin.dylib
+/plugin.dll
+.DS_Store
+Axioma_VSCode.code-workspace

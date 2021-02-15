@@ -1,0 +1,555 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 3,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.612000287
+        },
+        {
+          "id": 5,
+          "value": 0.355450243
+        },
+        {
+          "id": 6,
+          "value": 0.348000199
+        }
+      ],
+      "leftModuleId": 75,
+      "rightModuleId": 77,
+      "pos": [
+        54,
+        0
+      ]
+    },
+    {
+      "id": 71,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "SEQ3",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.367999971
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 2.0
+        },
+        {
+          "id": 7,
+          "value": 3.0
+        },
+        {
+          "id": 8,
+          "value": 4.0
+        },
+        {
+          "id": 9,
+          "value": 5.0
+        },
+        {
+          "id": 10,
+          "value": 6.0
+        },
+        {
+          "id": 11,
+          "value": 7.0
+        },
+        {
+          "id": 12,
+          "value": 1.82999992
+        },
+        {
+          "id": 13,
+          "value": 6.25500107
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 9.4800024
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 6.94500017
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 8.4750061
+        },
+        {
+          "id": 20,
+          "value": 2.17499971
+        },
+        {
+          "id": 21,
+          "value": 2.11500025
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 2.95499992
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 3.96000075
+        },
+        {
+          "id": 26,
+          "value": 6.42000246
+        },
+        {
+          "id": 27,
+          "value": 2.27999997
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 75,
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 72,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.411999732
+        },
+        {
+          "id": 1,
+          "value": 0.275771707
+        },
+        {
+          "id": 2,
+          "value": 0.715742588
+        },
+        {
+          "id": 3,
+          "value": 0.421435714
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 78,
+      "rightModuleId": 73,
+      "pos": [
+        83,
+        0
+      ]
+    },
+    {
+      "id": 73,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 72,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "deviceName": "Realtek HD Audio 2nd output (Realtek(R) Audio)",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        93,
+        0
+      ]
+    },
+    {
+      "id": 75,
+      "plugin": "Axioma",
+      "version": "1.0.0",
+      "model": "TheBifurcator",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 3.375
+        },
+        {
+          "id": 3,
+          "value": -2.0
+        },
+        {
+          "id": 4,
+          "value": 2.0
+        }
+      ],
+      "leftModuleId": 71,
+      "rightModuleId": 3,
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 76,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 77,
+      "rightModuleId": 78,
+      "pos": [
+        72,
+        0
+      ]
+    },
+    {
+      "id": 77,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0205001626
+        },
+        {
+          "id": 1,
+          "value": 0.529500127
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 3,
+      "rightModuleId": 76,
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 78,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 76,
+      "rightModuleId": 72,
+      "pos": [
+        80,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 157,
+      "outputModuleId": 71,
+      "outputId": 1,
+      "inputModuleId": 75,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 161,
+      "outputModuleId": 76,
+      "outputId": 0,
+      "inputModuleId": 78,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 163,
+      "outputModuleId": 77,
+      "outputId": 0,
+      "inputModuleId": 76,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 165,
+      "outputModuleId": 78,
+      "outputId": 0,
+      "inputModuleId": 72,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 155,
+      "outputModuleId": 75,
+      "outputId": 6,
+      "inputModuleId": 3,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 140,
+      "outputModuleId": 72,
+      "outputId": 1,
+      "inputModuleId": 73,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 139,
+      "outputModuleId": 72,
+      "outputId": 1,
+      "inputModuleId": 73,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 154,
+      "outputModuleId": 72,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 172,
+      "outputModuleId": 77,
+      "outputId": 0,
+      "inputModuleId": 78,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 173,
+      "outputModuleId": 75,
+      "outputId": 8,
+      "inputModuleId": 77,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 175,
+      "outputModuleId": 75,
+      "outputId": 20,
+      "inputModuleId": 77,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 177,
+      "outputModuleId": 72,
+      "outputId": 3,
+      "inputModuleId": 3,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 178,
+      "outputModuleId": 71,
+      "outputId": 2,
+      "inputModuleId": 75,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 179,
+      "outputModuleId": 77,
+      "outputId": 0,
+      "inputModuleId": 72,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 138,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 76,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 180,
+      "outputModuleId": 71,
+      "outputId": 3,
+      "inputModuleId": 72,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 174,
+      "outputModuleId": 75,
+      "outputId": 4,
+      "inputModuleId": 76,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 176,
+      "outputModuleId": 75,
+      "outputId": 2,
+      "inputModuleId": 77,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 159,
+      "outputModuleId": 75,
+      "outputId": 0,
+      "inputModuleId": 72,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 145,
+      "outputModuleId": 75,
+      "outputId": 3,
+      "inputModuleId": 72,
+      "inputId": 2,
+      "color": "#c9b70e"
+    }
+  ]
+}

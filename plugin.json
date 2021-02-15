@@ -1,0 +1,53 @@
+{
+  "slug": "Axioma",
+  "name": "Axioma",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Axioma",
+  "author": "Kaue Werner",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "TheBifurcator",
+      "name": "TheBifurcator",
+      "description": "Bifurcation based sequencer",
+      "tags": [
+        "Sequencer",
+        "Bifurcation",
+        "Chaos",
+        "Iteration"
+      ]
+    },
+    {
+      "slug": "Tesseract",
+      "name": "Tesseract",
+      "description": "Generate CV control sequences based on vertex positions of a rotating tesseract projected on a 2D space",
+      "tags": [
+        "Tesseract",
+        "4D",
+        "CV",
+        "Rotation",
+        "Control"
+      ]
+    },
+    {
+      "slug": "Ikeda",
+      "name": "Ikeda",
+      "description": "Generate CV output sequences based on positions in the chaotic attractor of the Ikeda map",
+      "tags": [
+        "Sequencer",
+        "Chaos",
+	"Attractor",
+        "Ikeda map",
+	"Iteration",
+        "Control"
+      ]
+    }
+  ]
+}

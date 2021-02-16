@@ -20,7 +20,7 @@
       "tags": [
         "Sequencer",
         "Noise",
-        "Physical Modeling",
+        "Physical modeling",
         "Random",
 	"Visual"
       ]
@@ -31,7 +31,7 @@
       "description": "Generate CV output sequences using vertex positions of a rotating tesseract projected on a 2D space",
       "tags": [
         "Low-frequency oscillator",
-	"Physical Modeling",
+	"Physical modeling",
 	"Visual"
       ]
     },
@@ -42,7 +42,7 @@
       "tags": [ 
         "Sequencer",
         "Noise",
-        "Physical Modeling",
+        "Physical modeling",
         "Random",
 	"Visual"
       ]

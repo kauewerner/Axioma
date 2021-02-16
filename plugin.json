@@ -19,9 +19,10 @@
       "description": "Generate CV/GATE/TRIGGER outputs based on bifurcation maps of iterated functions",
       "tags": [
         "Sequencer",
-        "Bifurcation",
-        "Chaos",
-        "Iteration"
+        "Noise",
+        "Physical Modeling",
+        "Random",
+	"Visual"
       ]
     },
     {
@@ -29,24 +30,21 @@
       "name": "Tesseract",
       "description": "Generate CV output sequences using vertex positions of a rotating tesseract projected on a 2D space",
       "tags": [
-        "Tesseract",
-        "4D",
-        "CV",
-        "Rotation",
-        "Control"
+        "Low-frequency oscillator",
+	"Physical Modeling",
+	"Visual"
       ]
     },
     {
       "slug": "Ikeda",
       "name": "Ikeda",
       "description": "Generate CV output sequences with positions of chaotic attractors in the Ikeda map",
-      "tags": [
+      "tags": [ 
         "Sequencer",
-        "Chaos",
-	"Attractor",
-        "Ikeda map",
-	"Iteration",
-        "Control"
+        "Noise",
+        "Physical Modeling",
+        "Random",
+	"Visual"
       ]
     }
   ]

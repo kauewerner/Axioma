@@ -6,10 +6,10 @@
   "brand": "Axioma",
   "author": "Kaue Werner",
   "authorEmail": "kaue.werner@gmail.com",
-  "authorUrl": "",
+  "authorUrl": "https://kauewerner.github.io",
   "pluginUrl": "",
   "manualUrl": "https://github.com/kauewerner/Axioma/blob/main/README.md",
-  "sourceUrl": "https://github.com/kauewerner/Axioma", 
+  "sourceUrl": "https://github.com/kauewerner/Axioma",
   "donateUrl": "",
   "changelogUrl": "",
   "modules": [
@@ -20,9 +20,8 @@
       "tags": [
         "Sequencer",
         "Noise",
-        "Physical modeling",
         "Random",
-	"Visual"
+        "Visual"
       ]
     },
     {
@@ -31,20 +30,27 @@
       "description": "Generate CV output sequences using vertex positions of a rotating tesseract projected on a 2D space",
       "tags": [
         "Low-frequency oscillator",
-	"Physical modeling",
-	"Visual"
+        "Visual"
       ]
     },
     {
       "slug": "Ikeda",
       "name": "Ikeda",
       "description": "Generate CV output sequences with positions of chaotic attractors in the Ikeda map",
-      "tags": [ 
+      "tags": [
         "Sequencer",
         "Noise",
-        "Physical modeling",
         "Random",
-	"Visual"
+        "Visual"
+      ]
+    },
+    {
+      "slug": "Rhodonea",
+      "name": "Rhodonea",
+      "description": "Oscillator based on rhodonea (rose) curves",
+      "tags": [
+        "Oscillator",
+        "Visual"
       ]
     }
   ]

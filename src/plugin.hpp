@@ -11,6 +11,8 @@ extern Plugin* pluginInstance;
 extern Model* modelTheBifurcator;
 extern Model* modelTesseract;
 extern Model* modelIkeda;
+extern Model* modelRhodonea;
+
 
 
 

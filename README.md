@@ -42,7 +42,7 @@ The main parameter is the `u` value, which can be altered in the module and it i
 
 ## <a name="rhodonea"></a> Rhodonea
 
-![module screenshot](./doc/Rhodonea.JPG)
+![module screenshot](./doc/Rhodonea_small.JPG)
 
 The Rhodonea module is a VCO with two oscillators defined by XY coordinates of [Rhodonea curves](https://en.wikipedia.org/wiki/Rose_(mathematics)). It follows the idea of polygonal synthesis where the wave shapes are created based on a projection of polar into cartesian coordinates. In this module, the Rhodonea curves (or Roses) are drawn on the XY plane using the following equations:
 

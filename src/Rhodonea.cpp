@@ -90,7 +90,7 @@ struct Rhodonea : Module {
 			outputs[X_OUTPUT].setVoltage(5.f * hpf.process(x));
 		}
 		
-		if(outputs[X_OUTPUT].isConnected()){
+		if(outputs[Y_OUTPUT].isConnected()){
 			float y =  (a - (1.f - a) * std::cos(2.f * M_PI * phaseK ) ) * std::sin(2.f * M_PI * phase + angle);
 			outputs[Y_OUTPUT].setVoltage(5.f * hpf.process(y));
 		}

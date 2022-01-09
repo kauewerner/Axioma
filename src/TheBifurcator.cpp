@@ -235,8 +235,11 @@ struct BifurcationDisplay : TransparentWidget {
 
 	}
 
-	void draw(const DrawArgs& args) override {
+	void drawLayer(const DrawArgs& args, int layer) override {
 		if (!module)
+			return;
+		
+		if (layer != 1)
 			return;
 
 		int mapIndex = (int) std::round(module->params[TheBifurcator::TYPE_KNOB_PARAM].getValue()); 
@@ -348,8 +351,11 @@ struct CobwebDisplay : TransparentWidget {
 		
 	}
 
-	void draw(const DrawArgs& args) override {
+	void drawLayer(const DrawArgs& args, int layer) override {
 		if (!module)
+			return;
+
+		if (layer != 1)
 			return;
 
 		int functionType = (int) std::round(module->params[TheBifurcator::FUNCTION_KNOB_PARAM].getValue());

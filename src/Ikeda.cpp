@@ -165,10 +165,13 @@ struct IkedaDisplay : TransparentWidget {
 		
 	}
 
-	void draw(const DrawArgs& args) override {
+	void drawLayer(const DrawArgs& args, int layer) override {
 		if (!module)
 			return;
 
+		if (layer != 1)
+			return;
+		
 		drawPoint(args, module->currentX,module->currentY);
 	}
 };

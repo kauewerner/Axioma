@@ -345,8 +345,11 @@ struct TesseractDisplay : TransparentWidget {
 		// nvgFill(args.vg);
 	};
 
-	void draw(const DrawArgs& args) override {
+	void drawLayer(const DrawArgs& args, int layer) override {
 		if (!module)
+			return;
+		
+		if (layer != 1)
 			return;
 
 		for(int i = 0; i < 16; i++){
